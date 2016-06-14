@@ -1,0 +1,28 @@
+{
+  "name": "iconv-urlencode",
+  "version": "1.0.0",
+  "description": "Node ackage to encode and decode url-encoded strings from/to every possible encoding",
+  "main": "lib/iconv-urlencode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trilobyte-berlin/node-iconv-urlencode.git"
+  },
+  "keywords": [
+    "node",
+    "iconv",
+    "urlencode",
+    "encoding"
+  ],
+  "dependencies": {
+    "iconv-lite": "^0.4.13"
+  },
+  "author": "Stefan Seide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trilobyte-berlin/node-iconv-urlencode/issues"
+  },
+  "homepage": "https://github.com/trilobyte-berlin/node-iconv-urlencode#readme"
+}
