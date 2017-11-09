@@ -1,6 +1,7 @@
 # iconv-urlencode
 
 [![Known Vulnerabilities](https://snyk.io/test/github/trilobyte-berlin/node-iconv-urlencode/badge.svg)](https://snyk.io/test/github/trilobyte-berlin/node-iconv-urlencode)
+[![Known Vulnerabilities](https://snyk.io/test/npm/iconv-urlencode/badge.svg)](https://snyk.io/test/npm/iconv-urlencode)
 
 Node package to encode and decode url-encoded strings from/to every possible encoding
 
