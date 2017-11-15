@@ -2,6 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/iconv-urlencode.svg)](https://www.npmjs.com/package/iconv-urlencode)
 [![Known Vulnerabilities](https://snyk.io/test/github/trilobyte-berlin/node-iconv-urlencode/badge.svg)](https://snyk.io/test/github/trilobyte-berlin/node-iconv-urlencode)
+[![Dependency Status](https://david-dm.org/trilobyte-berlin/node-iconv-urlencode.svg)](https://david-dm.org/trilobyte-berlin/node-iconv-urlencode)
+
+[![NPM](https://nodei.co/npm/iconv-urlencode.png?downloads=true&stars=true)](https://nodei.co/npm/iconv-urlencode/)
 
 Node package to encode and decode url-encoded strings from/to every possible encoding
 
@@ -29,9 +32,9 @@ var urlStr = 'Oh+du+fr%2BAPY-hliche...';
 var str = conv.decode(urlStr, 'utf-7');
 ```
 
-As Express, Request and Request-Promise packages insist of using utf-8 as the encoding for urls
-this package must be used to manually create the url params for some strange web services that do not
-adhere to the W3C sugessted utf-8 encoding.
+As Express, Request and Request-Promise packages insist on using utf-8 as the encoding for all urls
+this package can be used to manually create the url params for some strange web services that do not
+adhere to the W3C suggested utf-8 encoding.
 
 ```javascript
 var conv = require('iconv-urlencode');
